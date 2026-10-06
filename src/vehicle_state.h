@@ -97,7 +97,7 @@ class VehicleState
 
 public:
 
-	mavlink_hil_gps_t hil_gps_msg;
+	mavlink_hil_gps_t hil_gps_msg{};
 	double rpm;
 	double *FGControls;
 	int controlsCount;

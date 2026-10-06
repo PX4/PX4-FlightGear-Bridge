@@ -53,5 +53,5 @@ float get_mag_declination(float lat, float lon);
 // return magnetic field inclination in degrees
 float get_mag_inclination(float lat, float lon);
 
-// return magnetic field strength in centi-Tesla
+// return magnetic field strength in micro-Tesla
 float get_mag_strength(float lat, float lon);

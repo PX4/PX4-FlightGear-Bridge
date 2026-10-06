@@ -130,7 +130,7 @@ void VehicleState::setGPSMsg(const fgOutputData &fgData)
 
 mavlink_hil_sensor_t VehicleState::getSensorMsg(int offset_us)
 {
-    mavlink_hil_sensor_t sensor_msg;
+    mavlink_hil_sensor_t sensor_msg{};
 
 	sensor_msg.time_usec =elapsed_sec * 1e6+offset_us;
 
